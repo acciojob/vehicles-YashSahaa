@@ -76,7 +76,6 @@ public class Car extends Vehicle {
 
     public void setGears(int gears) {
         this.gears = gears;
-        changeGear(gears);
     }
 
     public void changeGear(int newGear){
