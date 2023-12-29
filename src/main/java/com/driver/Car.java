@@ -72,7 +72,7 @@ public class Car extends Vehicle {
     }
 
     public void setGears(int gears) {
-        this.gears = gears;
+        this.currentGear = gears;
     }
 
     public void setManual(boolean manual) {
